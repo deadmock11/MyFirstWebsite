@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Random Fun Facts ✨</h1>
+            <p class="subtitle">Discover amazing facts about our world</p>
+        </header>
+
+        <main>
+            <div class="fact-card">
+                <div class="fact-content">
+                    <p id="factText" class="fact-text">Click the button to discover a fun fact!</p>
+                    <span id="categoryTag" class="category-tag">Ready?</span>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="newFactBtn" class="btn btn-primary">
+                    <span class="btn-icon">🎲</span>
+                    New Fact
+                </button>
+                <button id="shareBtn" class="btn btn-secondary">
+                    <span class="btn-icon">📤</span>
+                    Share
+                </button>
+                <button id="favoriteBtn" class="btn btn-tertiary">
+                    <span class="btn-icon">❤️</span>
+                    Save
+                </button>
+            </div>
+
+            <div class="favorites-section">
+                <h2>💾 Saved Facts</h2>
+                <div id="favoritesList" class="favorites-list">
+                    <p class="empty-message">No saved facts yet. Click "Save" to add facts!</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with 💡 by Copilot AI | Refresh your knowledge daily!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
